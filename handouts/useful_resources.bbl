@@ -1,0 +1,286 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Borenstein%
+, Hedges%
+, Higgins%
+\BCBL {}\ \BBA {} Rothstein%
+}{%
+Borenstein%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2009}}%
+}]{%
+Borenstein2009}
+\APACinsertmetastar {%
+Borenstein2009}%
+\begin{APACrefauthors}%
+Borenstein, M.%
+, Hedges, L\BPBI V.%
+, Higgins, J\BPBI P\BPBI T.%
+\BCBL {}\ \BBA {} Rothstein, H\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2009}.
+\newblock
+\APACrefbtitle {{Introduction to Meta-analysis}} {{Introduction to
+  Meta-analysis}}.
+\newblock
+\APACaddressPublisher{Chichester, UK}{Wiley}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Broman%
+\ \BBA {} Woo%
+}{%
+Broman%
+\ \BBA {} Woo%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+Broman2018}
+\APACinsertmetastar {%
+Broman2018}%
+\begin{APACrefauthors}%
+Broman, K\BPBI W.%
+\BCBT {}\ \BBA {} Woo, K\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Data organization in spreadsheets}} {{Data organization
+  in spreadsheets}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The American Statistician}{72}{1}{2--10}.
+\newblock
+\begin{APACrefDOI} \doi{10.1080/00031305.2017.1375989} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Crawley%
+}{%
+Crawley%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+Crawley2013}
+\APACinsertmetastar {%
+Crawley2013}%
+\begin{APACrefauthors}%
+Crawley, M\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2013}.
+\newblock
+\APACrefbtitle {{The R Book}} {{The R Book}}\ (\PrintOrdinal{2nd}\ \BEd).
+\newblock
+\APACaddressPublisher{Chichester, UK}{Wiley {\&} Sons}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Crawley%
+}{%
+Crawley%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+Crawley2015}
+\APACinsertmetastar {%
+Crawley2015}%
+\begin{APACrefauthors}%
+Crawley, M\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2015}.
+\newblock
+\APACrefbtitle {{Statistics: an introduction Using R}} {{Statistics: an
+  introduction Using R}}\ (\PrintOrdinal{2nd}\ \BEd).
+\newblock
+\APACaddressPublisher{Chichester, UK}{Wiley {\&} Sons}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ellis%
+}{%
+Ellis%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+Ellis2010}
+\APACinsertmetastar {%
+Ellis2010}%
+\begin{APACrefauthors}%
+Ellis, P\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2010}.
+\newblock
+\APACrefbtitle {{The Essential Guide to Effect Sizes: Statistical Power,
+  Meta-Analysis, and the Interpretation of Research Results}} {{The Essential
+  Guide to Effect Sizes: Statistical Power, Meta-Analysis, and the
+  Interpretation of Research Results}}.
+\newblock
+\APACaddressPublisher{Cambridge}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Field%
+\ \BBA {} Gillett%
+}{%
+Field%
+\ \BBA {} Gillett%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+Field2010}
+\APACinsertmetastar {%
+Field2010}%
+\begin{APACrefauthors}%
+Field, A.%
+\BCBT {}\ \BBA {} Gillett, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{How to do a meta-analysis}} {{How to do a
+  meta-analysis}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{British Journal of Mathematical and Statistical
+  Psychology}{63}{}{665--694}.
+\newblock
+\begin{APACrefDOI} \doi{10.1348/000711010X502733} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Field%
+, Miles%
+\BCBL {}\ \BBA {} Field%
+}{%
+Field%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+Field2012}
+\APACinsertmetastar {%
+Field2012}%
+\begin{APACrefauthors}%
+Field, A.%
+, Miles, J.%
+\BCBL {}\ \BBA {} Field, Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2012}.
+\newblock
+\APACrefbtitle {{Discovering Statistics Using R}} {{Discovering Statistics
+  Using R}}.
+\newblock
+\APACaddressPublisher{London}{Sage Publications}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Higgins%
+\ \BBA {} Green%
+}{%
+Higgins%
+\ \BBA {} Green%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+HigginsGreen2008}
+\APACinsertmetastar {%
+HigginsGreen2008}%
+\begin{APACrefauthors}%
+Higgins, J\BPBI P.%
+\BCBT {}\ \BBA {} Green, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2008}.
+\newblock
+\APACrefbtitle {{Cochrane Handbook for Systematic Reviews of Interventions}}
+  {{Cochrane Handbook for Systematic Reviews of Interventions}}.
+\newblock
+\APACaddressPublisher{Chichester, UK}{Wiley-Blackwell}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kabacoff%
+}{%
+Kabacoff%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+Kabacoff2015}
+\APACinsertmetastar {%
+Kabacoff2015}%
+\begin{APACrefauthors}%
+Kabacoff, R\BPBI I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2015}.
+\newblock
+\APACrefbtitle {{R in Action: Data Analysis and Graphics with R}} {{R in
+  Action: Data Analysis and Graphics with R}}\ (\PrintOrdinal{2nd}\ \BEd).
+\newblock
+\APACaddressPublisher{Shelter Island, NY}{Manning Publications}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Teetor%
+}{%
+Teetor%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+Teetor2011}
+\APACinsertmetastar {%
+Teetor2011}%
+\begin{APACrefauthors}%
+Teetor, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2011}.
+\newblock
+\APACrefbtitle {{R Cookbook: Proven Recipes for Data Analysis, Statistics, and
+  Graphics}} {{R Cookbook: Proven Recipes for Data Analysis, Statistics, and
+  Graphics}}.
+\newblock
+\APACaddressPublisher{Sebastopol, CA}{O'Reilly Media}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wickham%
+\ \BBA {} Grolemund%
+}{%
+Wickham%
+\ \BBA {} Grolemund%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Wickham2017}
+\APACinsertmetastar {%
+Wickham2017}%
+\begin{APACrefauthors}%
+Wickham, H.%
+\BCBT {}\ \BBA {} Grolemund, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2017}.
+\newblock
+\APACrefbtitle {{R for Data Science: Import, Tidy, Transform, Visualize, and
+  Model Data}} {{R for Data Science: Import, Tidy, Transform, Visualize, and
+  Model Data}}.
+\newblock
+\APACaddressPublisher{Sebastopol, CA}{O'Reilly Media}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

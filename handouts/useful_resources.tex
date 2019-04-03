@@ -1,0 +1,65 @@
+\documentclass[10pt, a4paper]{article}   	% use "amsart" instead of "article" for AMSLaTeX format
+\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots. Uncomment to narrow margins
+%\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+
+\usepackage[colorlinks = true, linkcolor = blue, urlcolor = blue, citecolor = black]{hyperref} 
+\newcommand{\sourcefile}{\url}
+
+\usepackage{scrextend} 
+\addtokomafont{labelinglabel}{\sffamily}
+
+\usepackage[blocks]{authblk}
+
+\usepackage[natbibapa]{apacite}
+%\renewcommand\bibname{text}
+
+\title{Useful Resources for Doing a Meta-Analysis with R}
+\author{Thomas Klee}
+\affil{University of Hong Kong}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section*{Systematic reviews and meta-analyses}
+
+A meta-analysis is a statistical analysis of data in a systematic review. If we start with the basics, meta-analyses are all about collecting \textbf{effect sizes} from high quality studies that address a specific question and combining those effects to draw a reliable conclusion. Learning as much as you can about effect sizes is important if you want to understand or conduct a meta-analysis. The short book by \citet{Ellis2010} is an excellent introduction to effect sizes and meta-analysis.
+
+Further information about meta-analyses can be found in chapter 9 of the Cochrane Handbook \citep{HigginsGreen2008}, the latest version of which can be found on-line at \url{http://handbook-5-1.cochrane.org}. For a comprehensive, book-length discussion of meta-analysis, see \citet{Borenstein2009}. 
+
+\section*{Data entry}
+Before any kind of statistical analysis can be done, the raw data from your study needs to be entered into a computer file of some kind. Unfortunately, R doesn't provide a tool for doing that if you have anything other than a simple, small data set (which you won't). 
+
+One of the easiest ways of constructing a data file that can be loaded into R is to enter and store it in a spreadsheet using, for example, LibreOffice Calc, Google Sheets, Numbers for Mac or Microsoft Excel. However, loading your data directly from the spreadsheet into R can sometimes cause unexpected drama. To avoid that, first save the spreadsheet as a comma separated values (CSV) file and then load the data from the CSV file into R.\footnote{For more complex data sets, you might consider using database management software, LibreOffice Base or Microsoft Access, although this is probably overkill for a typical meta-analysis study.}  Although R is capable of reading spreadsheet files (e.g., .ods or .xlsx files), CSV files have some advantages since they only contain unformatted, plain text. Then, when the data appear in an R data frame, there should be fewer surprises.
+
+The best guidelines I've seen for how to enter data into a spreadsheet is the recent paper by \citet{Broman2018}. For example, the authors recommend how to construct sensible variable names and format dates. They also recommend against highlighting cells, using coloured text or putting calculations in the spreadsheet---and many other things you may not have considered. If you follow their recommendations, you won't go wrong. The recommendations can also be found at \url{https://kbroman.org/dataorg/}.
+
+\section*{Doing meta-analysis and other statistics with R}
+
+There are several packages available in R for doing meta-analysis. I became aware of R's \emph{meta} package from the statistics book by \citet{Crawley2013} which, incidentally, also provides a good introduction to R. For a shorter version of this book, but without the meta-analysis chapter, see \citet{Crawley2015}. 
+
+We're only going to learn enough about R in these sessions to do a meta-analysis. But R can be used for many other kinds of statistical analyses. It also has one of the best graphics packages in the business, ggplot2, a stand-alone R package that is also part of another package called tidyverse. More on tidyverse when we discuss how to write R scripts.  
+
+If you're familiar with Andy Field's book on doing statistics with SPSS, you'll probably also like his book on doing statistics with R \citep{Field2012}.\footnote{But see \citet{Field2010}.} It was useful to me when I first began learning R and still is. However, it was written before the days of RStudio, so the examples in the book illustrate what R looks like on its own, without the nice RStudio environment. There's also nothing in the book about doing meta-analysis, other than a mention. And all of the examples of R code in the book are presented using \emph{base R} since the book was written before the newer and---well---tidier, tidyverse commands came along. You can get along perfectly well without knowing anything about tidyverse syntax, but learning how to do things with base R and with tidyverse syntax will give you the best of both worlds and the most coding flexibility. 
+
+\section*{Websites for learning R}
+There are many on-line resources for learning R. The ones with asterisks are written around base R, not tidyverse. 
+
+\begin{labeling}{Websites}
+\item[R for Data Science] is the website for an excellent book of the same name \citep{Wickham2017}. The website contains everything the book does. This is my go-to resource when I want to learn something new about R. Try this before looking any further. \url{https://r4ds.had.co.nz}
+\item[Tidyverse] describes a suite of R packages written by Hadley Wickham that will make your life easier. \url{https://www.tidyverse.org}. The suite can be downloaded in RStudio by clicking on the Packages tab, then Install, then typing \texttt{tidyverse} in the search box.
+\item[Quick-R*] is the website for another book on R \citep{Kabacoff2015} and contains a tutorial on R and basic information about data, statistics and creating plots. \url{https://www.statmethods.net/index.html}.
+\item[Cookbook for R*] is the website for another excellent book of the same name \citep{Teetor2011}, developed to \emph{``provide solutions to common tasks and problems in analyzing data''}. \url{http://www.cookbook-r.com/Basics/}
+\item[R-bloggers] is a great website that aggregates other blogs about R. I've learned a lot of new things by keeping an eye on this. \url{https://www.r-bloggers.com}
+\item[RStudio] The RStudio website is another good place for learning about, and trouble-shooting, R. You'll find some useful cheatsheets in the Help tab of RStudio and at \url{https://www.rstudio.com/resources/cheatsheets/}.
+\end{labeling}
+
+\bibliographystyle{apacite}
+\bibliography{/Users/thomasklee/Documents/Bibtex/library}
+
+\end{document}
