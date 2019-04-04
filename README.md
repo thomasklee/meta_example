@@ -1,3 +1,3 @@
 # meta_example
 
-test
+In wanting to provide university students with a tool for creating forest plots, funnel plots and other elements of meta-analysis, and only having a couple of sessions for doing so, I put together two R scripts for students who had never used R. The first script (basic_operations.R) provides an easy introduction to some basic concepts in R, such as creating and manipulating objects. The other (meta-analysis-example.R) introduces some basic functions of the wonderful, and easy-to-use, meta package. Both scripts can be found in the analysis folder. The data folder contains spreadsheets and CSV files, one of which (law2004_fig3_data.csv) is used in the meta-analysis script. I'll be adding more to this repository later.
