@@ -2,7 +2,7 @@
 # How to do a meta-analysis
 # Thomas Klee
 # Created: 2018-10-30
-# Updated: 2018-12-04
+# Updated: 2019-04-04
 # ---------------------------
 
 # This script illustrates how a meta-analysis can be done.
@@ -42,6 +42,9 @@ help(meta)
 # outcome variable is 'parent report of vocabulary'.
 # the data we'll use were stored in a spreadsheet in a folder named 'data' 
 # and then saved as a .csv file
+
+# Set your working directory to the 'analysis' folder in the 'More' dropdown 
+# menu of RStudio's 'Files' tab.
 
 # import the .csv file into an R object called 'data'.
 # replace the name of the CSV file in the line below with the name of your data file
@@ -85,8 +88,6 @@ forest(stats_md)
 
 # add study authors and dates
 forest(stats_md, studlab = paste(data$author, data$year))
-
-# repeat instruction in line 68 and smile
 
 # create funnel plot and display
 funnel(stats_md, studlab = paste(data$author, data$year))
@@ -148,5 +149,5 @@ forest(stats_smd3, studlab = paste(data$author, data$year))
 # create funnel plot
 funnel(stats_smd3, studlab = paste(data$author, data$year))
 
-# cite which R package was used for your analysis
+# cite the R package you used to credit its author in your paper
 citation("meta")
